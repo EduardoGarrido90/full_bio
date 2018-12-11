@@ -1,0 +1,27 @@
+Full Bio-inspired Hyper Heuristic Bayesian Optimization Search
+===============================================================
+
+Apply SMAC to optimize the chosen metaheuristic for a given problem (use PyGMO):
+
+Use:
+
+(Particle Swarm Optimization) PyGMO.algorithm.pso, 
+(Simple Genetic Algorithm) PyGMO.algorithm.sga
+(Artificial Bee Colony (ABC)) PyGMO.algorithm.bee_colony
+(Differential Evolution (DE)) PyGMO.algorithm.de
+
+And their space that optimize the parameters of the food problems.
+
+Also optimize two or three synthetic and benchmark problems.
+
+Tareas:
+
+(4h) 1. Definir espacio de busqueda al estilo SMAC3 de todos los algoritmos propuestos mas busqueda final global.
+(4h) 2. Definir metaheuristicas individuales contando busqueda final global.
+(4h) 3. Definir wrappers.
+(3h) 4. Problemas de prueba. 
+(3h) 5. Problemas de la comida.
+(4h) 6. Recopilar resultados.
+(8h) 7. Escribir paper.
+
+Total: 30h. 
