@@ -1,0 +1,32 @@
+{
+    "language"        : "PYTHON",
+    "random_seed"     : 1,
+    "main_file"       : "wrapper",
+    "max_finished_jobs"       : 200,
+    "experiment-name" : "simple_pes_michalewicz_ei_1",
+    "likelihood"      : "GAUSSIAN",
+    "acquisition"     : "PES",
+    "variables": {
+        "cr": {
+            "type": "FLOAT",
+            "size": 1,
+            "min": 0.4,
+            "max": 0.99
+        },
+        "m": {
+            "type": "FLOAT",
+            "size": 1,
+            "min":  0.001,
+            "max":  0.2
+        }
+    },
+    "tasks": {
+      "o1" : {
+          "type"        : "OBJECTIVE",
+          "fit_mean"    : false,
+          "transformations"     : [],
+          "group"    : 0
+      }
+    }
+}
+

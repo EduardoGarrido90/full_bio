@@ -1,0 +1,38 @@
+{
+    "language"        : "PYTHON",
+    "random_seed"     : 1,
+    "main_file"       : "wrapper",
+    "max_finished_jobs"       : 200,
+    "experiment-name" : "simple_pso_griewank_pes_1",
+    "likelihood"      : "GAUSSIAN",
+    "acquisition"     : "PES",
+    "variables": {
+        "omega": {
+            "type": "FLOAT",
+            "size": 1,
+            "min": 0,
+            "max": 1
+        },
+        "eta1": {
+            "type": "FLOAT",
+            "size": 1,
+            "min":  0,
+            "max":  4
+        },
+	"eta2": {
+            "type": "FLOAT",
+            "size": 1,
+            "min":  0,
+            "max":  4
+        }
+    },
+    "tasks": {
+      "o1" : {
+          "type"        : "OBJECTIVE",
+          "fit_mean"    : false,
+          "transformations"     : [],
+          "group"    : 0
+      }
+    }
+}
+
